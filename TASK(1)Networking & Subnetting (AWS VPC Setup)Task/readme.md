@@ -1,1 +1,1 @@
-
+I designed the VPC with a 10.0.0.0/16 CIDR block so I could comfortably divide it into four clean /24 subnets. The public subnets handle internet-facing resources through an Internet Gateway, while the private subnets stay isolated and use a NAT Gateway for safe outbound access. This layout follows a standard multi-tier AWS network pattern.
