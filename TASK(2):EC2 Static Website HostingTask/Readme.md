@@ -1,1 +1,1 @@
-
+I set up a free-tier EC2 instance in a public subnet, installed Nginx, and uploaded my resume as a static HTML page. The instance’s security group was configured to allow only HTTP from the internet and SSH from my IP. I also followed basic hardening practices such as enabling updates and restricting unnecessary access.
