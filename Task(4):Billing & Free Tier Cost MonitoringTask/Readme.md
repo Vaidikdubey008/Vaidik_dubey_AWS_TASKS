@@ -1,1 +1,1 @@
-
+To make the setup highly available, I created an ALB in the public subnets and shifted all EC2 instances into private subnets for better security. The Auto Scaling Group spreads instances across AZs and automatically replaces or adds servers based on load. Traffic now flows cleanly from the internet → ALB → private EC2s
