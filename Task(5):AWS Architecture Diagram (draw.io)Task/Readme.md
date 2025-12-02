@@ -1,1 +1,1 @@
-
+designed the architecture so traffic enters through an ALB (and optional WAF) in public subnets, then flows to EC2 instances in private subnets managed by an Auto Scaling Group. Aurora and Redis provide a reliable backend and caching layer. Security Groups, NACLs, and CloudWatch were included to secure and monitor the full stack as it scales to heavy load.
